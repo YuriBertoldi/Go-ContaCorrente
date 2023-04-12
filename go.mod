@@ -1,3 +1,3 @@
-module github.com/YuriBertoldi/Go-Exemplo-ContaCorrente
+module github.com/YuriBertoldi/Go-ContaCorrente
 
 go 1.20
