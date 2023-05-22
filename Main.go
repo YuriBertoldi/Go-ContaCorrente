@@ -14,7 +14,7 @@ func main() {
 	ccTitularTeste.Titular = "Titular teste 1"
 	ccTitularTeste.Saldo = 102.45
 
-	ccTitularTeste1 := conta.ContaCorrente{"Titular teste 3", 321, 023456, 200}
+	ccTitularTeste1 := conta.ContaCorrente{Titular: "Titular teste 3", NumeroAgencia: 321, NumeroConta: 023456, Saldo: 200}
 
 	fmt.Println(ccTitularTeste, " saque: ", ccTitularTeste.Sacar(100), " saldo disp: ", ccTitularTeste.Saldo)
 
